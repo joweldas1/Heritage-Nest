@@ -1,9 +1,13 @@
-import Banner from "../../Shared/Sections/Banner/Banner";
+import Banner from "../../Shared/Sections/Home/Banner/Banner";
+import HomeProperty from "../../Shared/Sections/Home/FindProperty/HomeProperty";
+import OtherServices from "../../Shared/Sections/Home/OtherServices/OtherServices";
 
 const Home = () => {
     return (
         <div>
-            <Banner/>
+           <Banner/>
+           <HomeProperty/>
+           <OtherServices/>
         </div>
     );
 };

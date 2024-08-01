@@ -1,0 +1,31 @@
+.findBtn {
+    background-color:rgba(230,239,248,1);
+    ;
+    color:rgba(0, 89, 177, 1);
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .findBtn:hover {
+    color:rgb(1, 62, 122);
+    background-color: rgb(150, 194, 238) 
+  }
+  
+  .findBtn:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 89, 177, 0.4);
+  }
+  
+  .shadowOne{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+  }
+  .shadowTwo{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
+  }

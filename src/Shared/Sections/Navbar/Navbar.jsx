@@ -2,6 +2,7 @@ import { useState } from "react";
 import NavItem from "../../Componenets/NavItem";
 import './navbar.css'
 import { RxHamburgerMenu } from "react-icons/rx";
+import logo from '/assest/logo.png'
 
 
 const Navbar = () => {
@@ -10,14 +11,14 @@ const Navbar = () => {
     return (
         <div>
             {/* navbar for lg screen */}
-            <div className="hidden lg:grid grid-cols-3 py-4 px-[112px] bg-[rgba(236,245,255,1)]">
+            <div className="hidden lg:grid grid-cols-3 items-center py-4 px-[112px] bg-[rgba(236,245,255,1)]">
                 {/* navLink */}
                 <div className="">
                     <NavItem/>
                 </div>
                 {/* logo */}
                 <div className="">
-                    <h1 className="text-2xl font-semibold text-center">Logo</h1>
+                    <img src={logo} alt="logo" className="w-14 mx-auto" />
                 </div>
                 {/* singIn button */}
                 <div className="flex justify-end">
@@ -29,7 +30,9 @@ const Navbar = () => {
             <div className="">
             <div className="lg:hidden z-50 flex items-center justify-between px-2 bg-[rgba(236,245,255,1)] py-2">
             {/* logo */}
-            <div><p className="text-2xl">logo</p></div>
+            <div className="">
+                    <img src={logo} alt="logo" className="w-10 mx-auto" />
+                </div>
             <div>
                 <button onClick={()=>setShowMenu(!showMenu)}>
                         {
