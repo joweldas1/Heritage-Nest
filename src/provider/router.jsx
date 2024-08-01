@@ -4,6 +4,7 @@ import Home from "../Pages/Home/Home";
 import Login from "../Pages/Login/Login";
 import SignUp from "../Pages/SignUp/SignUp";
 import Buy from "../Pages/Buy/Buy";
+import PropertyDetails from "../Pages/PropertyDetails/PropertyDetails";
 
 
 export const router = createBrowserRouter([
@@ -27,6 +28,10 @@ export const router = createBrowserRouter([
             {
                 path:'/buy',
                 element:<Buy/>
+            },
+            {
+                path:'/property/:id',
+                element:<PropertyDetails/>
             }
         ]
     }

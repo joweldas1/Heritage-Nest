@@ -1,0 +1,27 @@
+.slick-list {
+    margin: 0 -10px;
+  }
+  .slick-slide {
+    padding: 0 10px; 
+  }
+  .slick-dots li button:before{
+    color: transparent;
+    background-color: rgba(238, 102, 17, 1);
+    border-radius: 50%;
+    width: 20px;
+    height: 5px;
+  }
+  .slick-dots li button{
+    border-radius: 50%;
+    width: 20px;
+    height: 5px;
+    color: transparent;
+  }
+  .slick-dots li button:after{
+    color: transparent;
+  }
+  li.slick-active{
+    color: transparent;
+    background-color: transparent;
+  }
+  /* black not could not remove */

@@ -65,3 +65,77 @@
 
     }
   }
+
+
+  /* customize css for swiper */
+  /* Custom styles for Swiper navigation buttons */
+  .card-shadow{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+.swiper-button-next,
+.swiper-button-prev {
+    color: #fff; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    border-radius: 50%; 
+    width: 40px; 
+    height: 40px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -80px;
+}
+
+/* Adjust icon size */
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    font-size: 20px;
+}
+
+/* Positioning and hover effects */
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.swiper-button-next {
+    right: 10px;
+}
+
+.swiper-button-prev {
+    left: 10px; 
+}
+
+
+
+
+
+
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: #fff; 
+    background-color: rgba(84, 144, 203, 1); 
+    border-radius: 50%; 
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    font-size: 20px; 
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    background-color: rgba(0, 0, 0, 0.7); 
+}
+
+.swiper-button-next {
+    right: 5px; ;
+}
+
+.swiper-button-prev {
+    left: 5px;
+}

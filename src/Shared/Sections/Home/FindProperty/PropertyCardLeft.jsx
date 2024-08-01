@@ -2,7 +2,7 @@ import { BiPlay, BiSearch } from "react-icons/bi";
 
 const PropertyCardLeft = ({imgOne,imgTwo}) => {
     return (
-        <div className='flex flex-col-reverse lg:flex-row-reverse  items-start lg:gap-36 lg:h-[90vh] '>
+        <div className='flex flex-col-reverse lg:flex-row-reverse  items-start lg:gap-20 lg:h-[90vh] '>
         {/* image-right */}
         <div className='w-full relative mt-4 lg:mt-0'>
         <img src={imgTwo} alt="living room image2" className='lg:w-[452px] lg:h-[240px] w-72 rounded-[8px] shadowTwo absolute left-[16%]' />
