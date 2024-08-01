@@ -11,7 +11,7 @@ const PropertyCardRight = ({imgOne,imgTwo}) => {
             <div className='w-full relative mx-3 mt-4 lg:mt-0'>
                 <img src={imgOne} alt="living room image1" className='lg:w-[458px] lg:h-[400px] w-72 rounded-[8px] shadowOne ml-3 lg:ml-0' />
                 <img src={imgTwo} alt="living room image2" className=' w-64 lg:w-[452px] lg:h-[240px] absolute top-[60%] left-[20%] rounded-[8px] shadowTwo' />
-                <div className='w-14 h-14 lg:w-[70px] lg:h-[70px] bg-[rgba(0,89,177,1)] flex items-center justify-center rounded-full z-50 absolute top-[50%]  right-16 lg:right-[-8%] '>
+                <div className='w-14 h-14 lg:w-[70px] lg:h-[70px] bg-[rgba(0,89,177,1)] flex items-center justify-center rounded-full z-50 absolute top-[50%]  right-16 lg:right-[-3%] '>
                 <BiPlay className='text-[rgba(255,255,255,1)] text-3xl lg:text-5xl ml-2'/>
                 </div>
             </div>
