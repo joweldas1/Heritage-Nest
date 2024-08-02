@@ -34,7 +34,7 @@ const Navbar = () => {
 
 
     return (
-        <div className={`w-full h-auto sticky top-0  z-[100] ${showNav?"translate-y-0":"-translate-y-full"} transition-transform duration-500 ease-in-out`}>
+        <div className={`w-full h-auto sticky top-0  z-[10000] ${showNav?"translate-y-0":"-translate-y-full"} transition-transform duration-500 ease-in-out`}>
             {/* navbar for lg screen */}
             <div className={`hidden lg:grid grid-cols-3 items-center py-4 px-[112px] bg-[rgba(236,245,255,1)] w-full sticky ${showNav?"":""} top-0 z-[100] transition-transform duration-500 ease-in-out delay-200`}>
                 {/* navLink */}
