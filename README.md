@@ -1,6 +1,6 @@
 # Heritage Nest
 
-Front End Job Task Project for bdCalling IT Limited.
+Front End Job Task Project.
 
 ## Technology
 - React
