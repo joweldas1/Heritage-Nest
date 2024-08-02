@@ -1,0 +1,20 @@
+.property-shadow{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.overview-shadow{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+/* propertyDetail.css */
+.range-slider .range-slider__range {
+    height: 20px !important;
+    background: transparent !important;
+}
+.range-slider{
+    height:20px !important;
+    background-color:rgba(238,238,238,1) !important;
+}
+.range-slider .range-slider__thumb{
+    background:rgba(238, 102, 17, 1) !important;
+}

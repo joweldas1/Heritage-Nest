@@ -1,15 +1,13 @@
 
-    import { useEffect, useState } from 'react';
-    import interior from '../../../../provider/data'
-import CommonBanner from '../CommonBanner';
+import UsePropertyData from "../../../../Hooks/UsePropertyData";
+import CommonBanner from "../CommonBanner";
+
     const PopularProperties = () => {
-        const [data,setData] = useState([])
-        useEffect(()=>{
-            setData(interior)
-        },[])
+        const [property] = UsePropertyData()
+     
         return (
             <div className='lg:px-[112px] px-2 mb-28 mt-16'>
-                <CommonBanner data={data} title={"Popular  Properties"} />
+                <CommonBanner data={property} title={"Popular  Properties"} />
             </div>
         );
     };
